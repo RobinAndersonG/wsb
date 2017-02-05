@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Salon kosmetyczny X</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/ico" href="img/fav.ico" />
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhRURw8uctfxVM8te5agFjNFenujDMGEk&callback=initMap"
+            type="text/javascript"></script>
+    <script type="text/javascript">
+	var mapka;
+	function dodajMarker(lat, Lon, opcjeMarkera){
+		opcjeMarkera.position = new google.maps.LatLng(lat, lon);
+		opcjeMarkera.map = mapka;
+		var marker = new google.maps.Marker(opcjeMarkera);
+	}
+		function mapaStart(){
+			var wspolrzedne = new google.maps.LatLng(54.356017, 18.584657);
+			var opcje = {
+				zoom:18,
+				center: wspolrzedne,
+				mapTypeId: google.maps.MapTypeId.ROADMAP,
+			    scrollwheel: false,
+			};
+			var mapka = new google.maps.Map(document.getElementById("mapa"), opcje);
+			//zwykly marker
+			dodajMarker(54.356017, 18.584657, {});
+		}
+    </script>
+</head>
+<body itemscope itemtype="http://schema.org/Invoice" link="none" vlink="none" alink="none" onload="mapaStart()" onLoad="slide()" >
+<nav id="contact">
+<div id="contactcont">
+<div class="contact">
+<p>
+<a href="tel:+48 58 666 66 66" itemprop="telephone">
+<img src="img/phonemy.png" width="25" height="" alt="Salon urody telefon" title="Zadzwon do salonu urody XXX"/>
+<strong>UMÓW SIĘ NA WIZYTĘ 
+<span itemprop="telephone">+48 58 666 66 66
+</span>
+</strong>
+</a>
+</p>
+</div>
+<div class="contact">
+<p>
+<a href="mailto:kontakt@salonurody.pl;?subject=Umówienie wizyty&amp;body=Chciałbym / chciałabym umówić wizytę na zabieg .............. w dniu ............... o godzinie............." itemprop="email">
+<img src="img/envemy.png" width="25" height="" alt="Salon urody emial" title="Napisz do salonu urody XXX"/>
+<strong>NAPISZ DO NAS</strong>
+</a>
+</p>
+</div>
+<div class="contact">
+<p>
+<img src="img/clockmy.png" width="25" height="" alt="Salon urody godziny otwarcia" title="Przyjdź do salonu urody XXX"/>
+<strong>SALON OTWARTY W GODZ. 09:00 - 21:00</strong>
+</p></div>
+</div>
+</nav>
+<aside id="banerjs" >
+<img id="image1" src="img/lift.jpg"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+    var $pic = $("#banerjs");
+    $pic.hide();
+    $pic.slideDown(850, function () { });
+    setTimeout(function () {
+        $("#image1").attr("src", "img/lift2.jpg");
+        setTimeout(function () {
+            $("#image1").attr("src", "img/oil.jpg");
+            setTimeout(function () {
+                $("#image1").attr("src", "img/legs.jpg");
+                setTimeout(function () {
+                    $("#image1").attr("src", "img/pedi.jpg");
+                    setTimeout(function () {
+                        $("#image1").attr("src", "img/lift.jpg");
+                    }, 3000);
+                }, 3000);
+            }, 3000);
+        }, 3000);
+    }, 3000);
+    </script>
+    <script>
+        setInterval(function () {
+            setTimeout(function () {
+                $("#image1").attr("src", "img/lift2.jpg");
+                setTimeout(function () {
+                    $("#image1").attr("src", "img/oil.jpg");
+                    setTimeout(function () {
+                        $("#image1").attr("src", "img/legs.jpg");
+                        setTimeout(function () {
+                            $("#image1").attr("src", "img/pedi.jpg");
+                            setTimeout(function () {
+                                $("#image1").attr("src", "img/lift.jpg");
+                            }, 3000);
+                        }, 3000);
+                    }, 3000);
+                }, 3000);
+            }, 3000);
+        }, 15000);
+    //$(document).ready(function () {
+    //    function playslider() {
+    //        $('#image1').fadeIn(800).delay(800).fadeOut(800);
+    //        $('#image1').delay(1600).fadeIn(800).delay(800).fadeOut(800);
+    //    }
+    //    playslider();
+    //});
+   </script>
+
+</aside>
+<div id="menucontainer">
+<div id="mainmenu">
+<ul id="gornalista">
+			<li><a href="#">Strona główna</a></li>
+			<li><a href="#">O Nas</a></li>
+			<li>
+            <a href="#">Oferta</a>
+            <a href="#" class="linkmenu">Pakiety</a>
+            <a href="#" class="linkmenu">Zabiegi SPA</a>
+            <a href="#" class="linkmenu">Odnowa</a>
+            <a href="#" class="linkmenu">Estetyka</a>
+            </li>
+			<li><a href="#">Cennik</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Kontakt</a></li>
+		</ul>
+</div>
+</div>
+    <div id="containermain">
+        <div id="main">
+            <main>
+                <figure id="shell"><img src="img/shell.png" width="150px" height="" alt="" title="" /></figure>
+                <div id="header">
+                    <header>
+                        GABINET KOSMETYCZNY W MIEŚCIE X
+                    </header>
+                </div>
+                <section>
+                    <!--  Artykuly zazwyczaj umieszczamy w sekcji - Section teoretycznie powinien byc tylko jeden sekcja na stronie -->
+                    <article>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</article>
+                </section>
+            </main>
+        </div>
+        </div>
+<div id="baner2">
+    <div id="containerbaner">
+    <img src="img/biuremy.png" width="" height="" alt="" title="" />
+    </div>
+</div>
+<div id="menucontainer2">
+<menuitem id="asidemenu">
+    <div class="circles">
+        <div class="circlestop"><a href="#"><img src="img/kosmetyka.png" width="180px" height="" alt="" title="" /></a></div>
+        <div class="circlebottom">Kosmetyka</div>
+        </div>
+    <div class="circles">
+        <div class="circlestop"><a href="#"><img src="img/estetyka.png" width="180px" height="" alt="" title="" /></a></div>
+        <div class="circlebottom">Medycyna<br />estetyczna</div>
+    </div>
+    <div class="circles">
+        <div class="circlestop"><a href="#"><img src="img/spa.png" width="180px" height="" alt="" title="" /></a></div>
+        <div class="circlebottom">SPA</div>
+    </div>
+    </menuitem>
+</div>
+<div id="mapacont">
+    <div id="kontakt"><img src="img/kontakt.png" min-width="20px" height="20%" alt="" title="" /></div>
+    <figure id="mapa" style="width:100%; min-height:620px; border: 0px; background: gray"></figure>
+</div>
+    <div id="footercont">
+<footer>
+    <p>
+        SALON KOSMETYCZNY X<br />
+        2017 WSZELKIE PRAWA ZASTRZEŻONE
+    </p>
+
+</footer>
+   </div>
+</body>
+</html>
