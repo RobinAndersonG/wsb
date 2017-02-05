@@ -1,0 +1,309 @@
+﻿@font-face {
+  font-family: "DragonwickFGRegular";
+  src: url(fonts/dragwifg-webfont.ttf) format("truetype");
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+html {
+    width:100%;}
+body {
+	width:100%;
+	background-color:#ffffff;}
+#contact {
+    width:100%;
+    min-height:33px;
+}
+#contactcont {
+    width:968px;
+    margin:auto;
+    margin-bottom:1px;
+    background-color: grey;
+}
+.contact {
+    width:322px;
+    margin:auto;
+    min-height:32px;
+    float:left;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-align:center;
+	text-justify:inter-word;
+	color: #464141;
+    display: inline;
+}
+    .contact p {
+    line-height:32px;
+    display:inline-block;
+    margin:auto;
+    }
+
+    .contact img {
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:10px;
+    margin-top:-3px;
+    }
+
+
+ul {
+    margin:0;
+    float:left;
+}
+
+#menucontainer {
+    position: relative;
+    width:100%;
+    min-height:105px;
+    background-color:#343538;
+    z-index: 2;
+    margin-top:-762px;
+}
+#mainmenu {
+    width:968px;
+    min-height:105px;
+    margin:auto;
+    background-color:;
+    display:block;
+    }
+
+#mainmenu li:hover {
+    height: auto;
+}
+
+#mainmenu li {
+    width: 161px;
+    height: 105px;
+    margin:auto;
+    display:inline-block;
+    vertical-align: middle;
+    float: left;
+	list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+    font-weight: bold;
+	text-align:center;
+	text-justify:inter-word;
+	color: #e4e6e5;
+    overflow: hidden;
+    }
+
+    #mainmenu li a {
+    width: 161px;
+    display:inline-block;
+    color: #a2a7a4;
+    vertical-align: middle;
+    line-height: 105px;
+    margin:auto;
+    }
+
+    #mainmenu li a:hover {
+    color: #000;
+    opacity:0,4;
+    text-shadow:1px 1px 1px #343538;
+    }
+
+.linkmenu {
+        font-size: 18px;
+        text-shadow:1px 1px 1px #343538;
+        border-bottom:1px solid black;
+    }
+
+#banerjs {
+    position: relative;
+    width:100%;
+    height:660px;
+    margin-top:100px;
+    background-color:#dedfe1;
+    z-index: 1;
+    overflow:hidden;
+    -webkit-box-pack:center;
+    opacity:0.9;
+    }
+
+#banerjs img {
+    width:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+#containermain {
+    position:relative;
+    width:100%;
+    min-height:500px;
+    margin-top:520px;
+    background-color:white;
+    z-index: 3;
+}
+#main {
+    width:968px;
+    min-height:105px;
+    margin:auto;
+    background-color:;
+    display:block;
+}
+
+#shell {
+    position:absolute;
+    height:120px;
+    float:right;
+    margin-top:-30px;
+    margin-left:700px;
+    }
+
+header {
+    line-height:300px;
+    text-align:center;
+    font-family: Tahoma, Geneva, sans-serif;
+	font-size: 17px;
+	text-align:center;
+	text-justify:inter-word;
+}
+article{
+    line-height:30px;
+    text-align:center;
+    font-family: Tahoma, Geneva, sans-serif;
+	font-size: 17px;
+	text-align:center;
+	text-justify:inter-word;
+    display:block;
+    margin-top:-70px;
+}
+
+#baner2 {
+    position:relative;
+    width:100%;
+    min-height:400px;
+    background-color:#343538;
+    }
+
+#baner2 img {
+    width:100%;
+    margin:auto;
+}
+#menucontainer2 {
+    position:relative;
+    width:100%;
+    min-height:400px;
+    margin-top:-70px;
+    background-color:#343538;
+    overflow:hidden;
+}
+#asidemenu {
+    width:968px;
+    height:400px;
+    margin:auto;
+    display:block;
+    background-color:;
+}
+
+.circles{
+    width:322px;
+    min-height:400px;
+    margin:auto;
+    display:block;
+    float:left;
+}
+
+.circles img {
+    display:block;
+    margin:auto;
+    margin-top:30px;
+    vertical-align: middle;
+}
+
+.circles img:hover {
+    width:220px;
+}
+
+.circletop {
+    min-height:208px;
+}
+.circlebottom {
+    min-height:108px;
+    text-align:center;
+    font-family: Tahoma, Geneva, sans-serif;
+	font-size: 24px;
+	text-align:center;
+	text-justify:inter-word;
+    display:block;
+    vertical-align: middle;
+    color:#e3dfdf;
+}
+#mapacont {
+    width:100%;
+    min-height:620px;
+    background-color:#e8e4e1;
+    clear:both;
+}
+#mapa {
+    background-color:#e8e4e1;
+    clear:both;
+}
+
+
+#kontakt {
+    position:absolute;
+    display:block;
+    float:right;
+    vertical-align: middle;
+    z-index:4;
+    margin: 76px;
+    }
+#footercont{
+    width:100%;
+    min-height:90px;
+    background-color:#e4e6e5;
+     }
+
+#footer {
+    width:968px;
+    min-height:90px;
+    display:block;
+    text-align:center;
+	font-size: 17px;
+	text-justify:inter-word;
+    margin:auto;
+}
+
+#footercont p {
+    text-align:center;
+    padding-top:25px;
+    font: normal 2.5em "DragonwickFGRegular", Georgia, "Times New Roman", Times, serif;
+    margin: .5em 0 .25em;
+    letter-spacing: -1px;
+}
